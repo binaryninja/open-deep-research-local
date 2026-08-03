@@ -7,6 +7,34 @@ Built and validated on an NVIDIA RTX 5090 (32GB VRAM) with **Qwen3.6 35B-A3B** (
 📄 Sample output: [examples/rtx5090-local-models-report.md](examples/rtx5090-local-models-report.md) — the pipeline researching its own subject (best local models for a 32GB GPU, Aug 2026).
 🛠️ Full build/debugging log: [WORKLOG.md](WORKLOG.md)
 
+## Research phases
+
+```mermaid
+flowchart TD
+    U([User question]) --> CL["clarify_with_user<br/>(auto-skipped: ALLOW_CLARIFICATION=false)"]
+    CL --> WB["write_research_brief<br/><i>research model — structured output</i>"]
+    WB --> SV
+
+    subgraph SUP["Phase 2 — Supervised research &nbsp;·&nbsp; ≤ 3 iterations"]
+        SV["supervisor<br/>plan · delegate · reflect"] --> ST["supervisor_tools"]
+        ST -- "think_tool" --> SV
+
+        subgraph RES["Researcher units &nbsp;·&nbsp; ≤ 2 in parallel"]
+            RE["researcher<br/>≤ 6 tool calls each"] --> RT["researcher_tools"]
+            RT -- "web search → DuckDuckGo (ddgs)<br/>fetch pages → summarize<br/><i>summarization model, ≤ 3 in flight</i>" --> RE
+            RT -- "unit finished" --> CP["compress_research<br/><i>compression model</i>"]
+        end
+
+        ST -- "ConductResearch" --> RE
+        CP -- "compressed findings" --> SV
+    end
+
+    ST -- "ResearchComplete" --> FR["final_report_generation<br/><i>final report model</i>"]
+    FR --> OUT([report-&lt;timestamp&gt;.md])
+```
+
+All four italicized model roles are the *same* local model (`qwen3.6-odr` via Ollama) — they're separate config knobs upstream, kept separate here so you can mix models (e.g., a dense model for the final report). On the validation run, Phase 2 dominated wall time: ~95 of the ~130 model calls across 1h43m, with the report write itself taking ~70 seconds.
+
 ## How it works
 
 Everything upstream stays intact — the LangGraph supervisor/researcher architecture, prompts, and report generation. This fork adds:
