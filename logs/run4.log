@@ -1,0 +1,113 @@
+2026-08-03 10:50:46,222 INFO Starting deep research: What are the current state-of-the-art open-weight LLMs that can run locally on a single NVIDIA RTX 5090 (32GB VRAM) as o
+2026-08-03 10:50:46,223 INFO state update, populated keys: ['messages']
+2026-08-03 10:51:00,513 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:51:00,519 INFO state update, populated keys: ['messages', 'supervisor_messages', 'research_brief']
+2026-08-03 10:51:05,641 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:51:10,100 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:51:13,988 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:51:14,154 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+3.6+model+family+Alibaba+2026&limit=1 200
+2026-08-03 10:51:14,173 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+models+Hugging+Face+official+repository+2026&limit=1 200
+2026-08-03 10:51:14,242 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%203.6%20model%20family%20Alibaba%202026 200
+2026-08-03 10:51:14,265 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%20models%20Hugging%20Face%20official%20repository%202026 200
+2026-08-03 10:51:14,427 INFO response: https://search.brave.com/search?q=Qwen+models+Hugging+Face+official+repository+2026&source=web 429
+2026-08-03 10:51:15,147 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:51:15,150 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:51:15,340 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%203.6%20quantization%20VRAM%20inference 200
+2026-08-03 10:51:15,350 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+specifications+architecture+sizes+context+length&limit=1 200
+2026-08-03 10:51:15,373 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20specifications%20architecture%20sizes%20context%20length 200
+2026-08-03 10:51:15,390 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+3.6+quantization+VRAM+inference&limit=1 200
+2026-08-03 10:51:15,777 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:51:15,888 INFO response: https://www.mojeek.com/search?q=Qwen3.6+specifications+architecture+sizes+context+length 200
+2026-08-03 10:51:15,954 INFO response: https://grokipedia.com/api/typeahead?query=NVIDIA+RTX+5090+GPU+specifications+VRAM+memory+bandwidth+August+2026&limit=1 200
+2026-08-03 10:51:16,043 INFO response: https://search.brave.com/search?q=Qwen3.6+specifications+architecture+sizes+context+length&source=web 429
+2026-08-03 10:51:16,072 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=NVIDIA%20RTX%205090%20GPU%20specifications%20VRAM%20memory%20bandwidth%20August%202026 200
+2026-08-03 10:51:16,221 INFO response: https://www.google.com/search?q=NVIDIA+RTX+5090+GPU+specifications+VRAM+memory+bandwidth+August+2026&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:51:16,417 INFO response: https://yandex.com/search/site/?text=Qwen+3.6+quantization+VRAM+inference&web=1&searchid=1126988 200
+2026-08-03 10:51:16,568 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+blog+posts+technical+reports+Alibaba+Qwen3&limit=1 200
+2026-08-03 10:51:16,686 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%20blog%20posts%20technical%20reports%20Alibaba%20Qwen3 200
+2026-08-03 10:51:16,814 INFO response: https://www.google.com/search?q=Qwen+blog+posts+technical+reports+Alibaba+Qwen3&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:51:16,995 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:51:16,995 INFO response: https://search.brave.com/search?q=Qwen+blog+posts+technical+reports+Alibaba+Qwen3&source=web 429
+2026-08-03 10:51:17,186 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+3.6+Qwen3+series+models+released+2026&limit=1 200
+2026-08-03 10:51:17,212 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%203.6%20Qwen3%20series%20models%20released%202026 200
+2026-08-03 10:51:17,223 INFO response: https://yandex.com/search/site/?text=NVIDIA+RTX+5090+GPU+specifications+VRAM+memory+bandwidth+August+2026&web=1&searchid=9771499 200
+2026-08-03 10:51:17,426 INFO response: https://www.mojeek.com/search?q=Qwen+blog+posts+technical+reports+Alibaba+Qwen3 200
+2026-08-03 10:51:17,488 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+Tensor+Core+FP8+FP4+INT4+INT8+precision+support+Blackwell&limit=1 200
+2026-08-03 10:51:17,489 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%20Tensor%20Core%20FP8%20FP4%20INT4%20INT8%20precision%20support%20Blackwell 200
+2026-08-03 10:51:17,586 INFO response: https://search.yahoo.com/search;_ylt=8Nt-2gez6MKP6MW2Zii6eAZq;_ylu=Ca8YuJ2r5bgikraKwiL0YWV2xxKJEx6V_ZrQtXOWZ4_ZA7Y?p=Qwen+blog+posts+technical+reports+Alibaba+Qwen3 200
+2026-08-03 10:51:17,604 INFO response: https://search.yahoo.com/search;_ylt=UxiqoA2is_zOtEitE0N_J5nG;_ylu=cfElx25BGd7A_ZU09X2HcFSq-SqDdKLkqkZSf1-P5GjhiII?p=RTX+5090+Tensor+Core+FP8+FP4+INT4+INT8+precision+support+Blackwell 200
+2026-08-03 10:51:18,117 INFO response: https://yandex.com/search/site/?text=Qwen+3.6+Qwen3+series+models+released+2026&web=1&searchid=1868231 200
+2026-08-03 10:51:18,561 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:51:18,625 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+LLM+inference+llama.cpp+vLLM+TensorRT-LLM+compatibility+2026&limit=1 200
+2026-08-03 10:51:18,633 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%20LLM%20inference%20llama.cpp%20vLLM%20TensorRT-LLM%20compatibility%202026 200
+2026-08-03 10:51:18,938 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:51:19,427 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:21,608 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,653 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,684 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,685 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,685 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,685 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,685 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,685 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:22,685 WARNING Summarization timed out after 600 seconds, returning original content
+2026-08-03 11:01:34,488 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:01:34,761 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%20Open-weight%20LLMs%207B%2013B%2032B%20Q4%20INT4%20FP8%20VRAM%20requirements%20benchmark%202026 200
+2026-08-03 11:01:34,779 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+Open-weight+LLMs+7B+13B+32B+Q4+INT4+FP8+VRAM+requirements+benchmark+2026&limit=1 200
+2026-08-03 11:01:35,430 INFO response: https://search.brave.com/search?q=RTX+5090+Open-weight+LLMs+7B+13B+32B+Q4+INT4+FP8+VRAM+requirements+benchmark+2026&source=web 200
+2026-08-03 11:01:35,601 INFO response: https://grokipedia.com/api/typeahead?query=Llama+3.1+Llama+3.3+70B+Q4+Q6+RTX+5090+VRAM+usage+inference+speed&limit=1 200
+2026-08-03 11:01:35,676 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Llama%203.1%20Llama%203.3%2070B%20Q4%20Q6%20RTX%205090%20VRAM%20usage%20inference%20speed 200
+2026-08-03 11:01:35,828 INFO response: https://search.brave.com/search?q=Llama+3.1+Llama+3.3+70B+Q4+Q6+RTX+5090+VRAM+usage+inference+speed&source=web 429
+2026-08-03 11:01:36,269 INFO response: https://www.mojeek.com/search?q=Llama+3.1+Llama+3.3+70B+Q4+Q6+RTX+5090+VRAM+usage+inference+speed 200
+2026-08-03 11:01:36,395 INFO response: https://www.google.com/search?q=Llama+3.1+Llama+3.3+70B+Q4+Q6+RTX+5090+VRAM+usage+inference+speed&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 11:01:37,560 INFO response: https://yandex.com/search/site/?text=Llama+3.1+Llama+3.3+70B+Q4+Q6+RTX+5090+VRAM+usage+inference+speed&web=1&searchid=2519409 200
+2026-08-03 11:01:37,783 INFO response: https://grokipedia.com/api/typeahead?query=Mixtral+8x22B+DeepSeek+R1+Qwen+3+RTX+5090+single+GPU+benchmark+tokens+per+second&limit=1 200
+2026-08-03 11:01:37,864 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Mixtral%208x22B%20DeepSeek%20R1%20Qwen%203%20RTX%205090%20single%20GPU%20benchmark%20tokens%20per%20second 200
+2026-08-03 11:01:38,017 INFO response: https://search.yahoo.com/search;_ylt=lXmZ9SxKuFZexnGeX3pwK0i7;_ylu=w8vMI01OVhcdlfUFkSo8q-XyNAhhqm3FtMjEErc1Rh426AQ?p=Mixtral+8x22B+DeepSeek+R1+Qwen+3+RTX+5090+single+GPU+benchmark+tokens+per+second 200
+2026-08-03 11:01:48,645 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:01:48,856 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6-27B+benchmark+scores+MMLU+GSM8K+HumanEval+official&limit=1 200
+2026-08-03 11:01:48,878 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6-27B%20benchmark%20scores%20MMLU%20GSM8K%20HumanEval%20official 200
+2026-08-03 11:01:49,276 INFO response: https://www.mojeek.com/search?q=Qwen3.6-27B+benchmark+scores+MMLU+GSM8K+HumanEval+official 200
+2026-08-03 11:01:50,214 INFO response: https://yandex.com/search/site/?text=Qwen3.6-27B+benchmark+scores+MMLU+GSM8K+HumanEval+official&web=1&searchid=3962750 200
+2026-08-03 11:01:50,394 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6-35B-A3B+benchmark+scores+blog+official+Alibaba&limit=1 200
+2026-08-03 11:01:50,498 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6-35B-A3B%20benchmark%20scores%20blog%20official%20Alibaba 200
+2026-08-03 11:01:51,497 INFO response: https://yandex.com/search/site/?text=Qwen3.6-35B-A3B+benchmark+scores+blog+official+Alibaba&web=1&searchid=8624767 200
+2026-08-03 11:01:51,690 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+Max+Preview+proprietary+parameters+specifications+architecture&limit=1 200
+2026-08-03 11:01:51,776 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20Max%20Preview%20proprietary%20parameters%20specifications%20architecture 200
+2026-08-03 11:01:51,884 INFO response: https://search.yahoo.com/search;_ylt=eEGlOHuCj0jwBKragaC57FE2;_ylu=gS2bhXEaFPkdlOa8BN-ZgbfHoZQxgahXTIJpUUWyeKZYD6E?p=Qwen3.6+Max+Preview+proprietary+parameters+specifications+architecture 200
+2026-08-03 11:01:53,037 INFO response: https://www.mojeek.com/search?q=Qwen3.6+Max+Preview+proprietary+parameters+specifications+architecture 200
+2026-08-03 11:01:53,180 INFO response: https://search.brave.com/search?q=Qwen3.6+Max+Preview+proprietary+parameters+specifications+architecture&source=web 429
+2026-08-03 11:01:53,443 INFO response: https://www.startpage.com/ 200
+2026-08-03 11:01:53,846 INFO response: https://www.startpage.com/sp/search 200

@@ -1,0 +1,152 @@
+2026-08-03 11:04:43,435 INFO Starting deep research: What are the current state-of-the-art open-weight LLMs that can run locally on a single NVIDIA RTX 5090 (32GB VRAM) as o
+2026-08-03 11:04:43,436 INFO state update, populated keys: ['messages']
+2026-08-03 11:05:13,851 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:05:13,858 INFO state update, populated keys: ['messages', 'supervisor_messages', 'research_brief']
+2026-08-03 11:05:18,647 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:05:21,354 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:05:23,307 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:05:23,516 INFO response: https://grokipedia.com/api/typeahead?query=NVIDIA+RTX+5090+specifications+VRAM+memory+bandwidth+August+2026&limit=1 200
+2026-08-03 11:05:23,599 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=NVIDIA%20RTX%205090%20specifications%20VRAM%20memory%20bandwidth%20August%202026 200
+2026-08-03 11:05:24,597 INFO response: https://yandex.com/search/site/?text=NVIDIA+RTX+5090+specifications+VRAM+memory+bandwidth+August+2026&web=1&searchid=1214230 200
+2026-08-03 11:05:24,645 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:05:24,725 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+Blackwell+specifications+total+VRAM+32GB+official&limit=1 200
+2026-08-03 11:05:24,789 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+model+family+official+release+Alibaba+parameters+variants&limit=1 200
+2026-08-03 11:05:24,828 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%20Blackwell%20specifications%20total%20VRAM%2032GB%20official 200
+2026-08-03 11:05:24,933 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20model%20family%20official%20release%20Alibaba%20parameters%20variants 200
+2026-08-03 11:05:25,047 INFO response: https://search.yahoo.com/search;_ylt=goaNmdyjqtx4VcO5fxKk_pxB;_ylu=6AHnAuc6rLJmpZc-VspDEqfNPCDGHOFkpKvd3FAn-2wUc00?p=Qwen3.6+model+family+official+release+Alibaba+parameters+variants 200
+2026-08-03 11:05:25,821 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:05:25,968 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+LLM+inference+benchmarking+performance&limit=1 200
+2026-08-03 11:05:26,029 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%20LLM%20inference%20benchmarking%20performance 200
+2026-08-03 11:05:26,033 INFO response: https://www.mojeek.com/search?q=Qwen3.6+model+family+official+release+Alibaba+parameters+variants 200
+2026-08-03 11:05:26,234 INFO response: https://search.brave.com/search?q=Qwen3.6+model+family+official+release+Alibaba+parameters+variants&source=web 429
+2026-08-03 11:05:26,947 INFO response: https://yandex.com/search/site/?text=RTX+5090+LLM+inference+benchmarking+performance&web=1&searchid=3128459 200
+2026-08-03 11:05:27,447 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:05:27,595 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+open+source+LLM+model+card+release&limit=1 200
+2026-08-03 11:05:27,696 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20open%20source%20LLM%20model%20card%20release 200
+2026-08-03 11:05:27,868 INFO response: https://search.brave.com/search?q=Poolside+Laguna+XS+2.1+open+source+LLM+model+card+release&source=web 429
+2026-08-03 11:05:28,961 INFO response: https://yandex.com/search/site/?text=Poolside+Laguna+XS+2.1+open+source+LLM+model+card+release&web=1&searchid=1292131 200
+2026-08-03 11:05:29,127 INFO response: https://grokipedia.com/api/typeahead?query=OpenAI+gpt-oss+model+family+GitHub+release+open+weight&limit=1 200
+2026-08-03 11:05:29,215 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=OpenAI%20gpt-oss%20model%20family%20GitHub%20release%20open%20weight 200
+2026-08-03 11:05:29,635 INFO response: https://www.mojeek.com/search?q=OpenAI+gpt-oss+model+family+GitHub+release+open+weight 200
+2026-08-03 11:05:30,465 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:08:04,898 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:08:11,862 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:08:17,848 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:08:22,156 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:08:26,780 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:08:31,475 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:10:24,163 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:10:25,787 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:10:29,459 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:10:36,366 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:10:41,798 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:10:46,074 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:13:21,889 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:13:25,333 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:13:31,122 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:13:37,583 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:13:41,508 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:13:47,010 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:16:03,844 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:16:05,613 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:16:11,221 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:16:18,818 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:16:23,122 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:16:30,239 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:17:42,689 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:17:47,020 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:17:50,388 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:17:52,784 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:17:58,560 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:18:00,964 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:18:01,205 INFO response: https://grokipedia.com/api/typeahead?query=LLM+VRAM+calculation+formula+per+parameter+quantization+FP16+FP8+INT4&limit=1 200
+2026-08-03 11:18:01,227 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=LLM%20VRAM%20calculation%20formula%20per%20parameter%20quantization%20FP16%20FP8%20INT4 200
+2026-08-03 11:18:01,376 INFO response: https://www.google.com/search?q=LLM+VRAM+calculation+formula+per+parameter+quantization+FP16+FP8+INT4&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 11:18:01,817 INFO response: https://www.mojeek.com/search?q=LLM+VRAM+calculation+formula+per+parameter+quantization+FP16+FP8+INT4 200
+2026-08-03 11:18:02,769 INFO response: https://yandex.com/search/site/?text=LLM+VRAM+calculation+formula+per+parameter+quantization+FP16+FP8+INT4&web=1&searchid=7181713 200
+2026-08-03 11:18:02,997 INFO response: https://grokipedia.com/api/typeahead?query=KV+cache+VRAM+formula+context+length+LLM+estimation&limit=1 200
+2026-08-03 11:18:03,033 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KV%20cache%20VRAM%20formula%20context%20length%20LLM%20estimation 200
+2026-08-03 11:18:04,062 INFO response: https://yandex.com/search/site/?text=KV+cache+VRAM+formula+context+length+LLM+estimation&web=1&searchid=9355019 200
+2026-08-03 11:18:04,223 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:18:04,232 INFO response: https://grokipedia.com/api/typeahead?query=quantization+formats+FP8+FP16+INT8+INT4+AWQ+GPTQ+VRAM+per+parameter&limit=1 200
+2026-08-03 11:18:04,321 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=quantization%20formats%20FP8%20FP16%20INT8%20INT4%20AWQ%20GPTQ%20VRAM%20per%20parameter 200
+2026-08-03 11:18:04,405 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+27B+35B+quantization+GGUF+variants+Hugging+Face+model+repository&limit=1 200
+2026-08-03 11:18:04,440 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%2027B%2035B%20quantization%20GGUF%20variants%20Hugging%20Face%20model%20repository 200
+2026-08-03 11:18:04,578 INFO response: https://search.yahoo.com/search;_ylt=1dElZCv6Qpfk3eO7tQbF99Tk;_ylu=fVix0nXm1cOmq36NhYSaFYZ4lQzatiL-41kqo_5F2IzHS60?p=Qwen3.6+27B+35B+quantization+GGUF+variants+Hugging+Face+model+repository 200
+2026-08-03 11:18:05,230 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:18:05,390 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+32GB+LLM+model+size+fitting+guide+methodology&limit=1 200
+2026-08-03 11:18:05,416 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+full+benchmark+results+SWE-bench+MMLU+coding+comparison&limit=1 200
+2026-08-03 11:18:05,476 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%2032GB%20LLM%20model%20size%20fitting%20guide%20methodology 200
+2026-08-03 11:18:05,500 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20full%20benchmark%20results%20SWE-bench%20MMLU%20coding%20comparison 200
+2026-08-03 11:18:05,903 INFO response: https://www.mojeek.com/search?q=Qwen3.6+full+benchmark+results+SWE-bench+MMLU+coding+comparison 200
+2026-08-03 11:18:06,242 INFO response: https://search.brave.com/search?q=RTX+5090+32GB+LLM+model+size+fitting+guide+methodology&source=web 200
+2026-08-03 11:18:06,534 INFO response: https://search.brave.com/search?q=Qwen3.6+full+benchmark+results+SWE-bench+MMLU+coding+comparison&source=web 200
+2026-08-03 11:18:06,756 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Laguna%20XS%202.1%20official%20model%20card%20Poolside%20release%20details 200
+2026-08-03 11:18:06,776 INFO response: https://grokipedia.com/api/typeahead?query=Laguna+XS+2.1+official+model+card+Poolside+release+details&limit=1 200
+2026-08-03 11:18:06,976 INFO response: https://search.brave.com/search?q=Laguna+XS+2.1+official+model+card+Poolside+release+details&source=web 429
+2026-08-03 11:18:07,133 INFO response: https://www.google.com/search?q=Laguna+XS+2.1+official+model+card+Poolside+release+details&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 11:18:07,397 INFO response: https://www.startpage.com/ 200
+2026-08-03 11:18:07,790 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 11:18:07,988 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss+benchmark+results+MMLU+GPQA+AIME+OpenAI+official&limit=1 200
+2026-08-03 11:18:08,046 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss%20benchmark%20results%20MMLU%20GPQA%20AIME%20OpenAI%20official 200
+2026-08-03 11:18:08,173 INFO response: https://www.google.com/search?q=gpt-oss+benchmark+results+MMLU+GPQA+AIME+OpenAI+official&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 11:18:09,092 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:20:25,216 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:20:30,639 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:20:34,167 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:20:37,794 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:20:42,592 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:20:47,111 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:23:07,387 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:23:10,826 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:23:14,823 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:23:20,780 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:23:25,376 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:23:30,794 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:26:04,292 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:26:08,933 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:26:13,078 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:26:17,566 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:26:24,300 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:26:31,353 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:28:47,227 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:28:53,156 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:28:58,382 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:29:02,609 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:29:07,074 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:29:11,205 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:31:19,512 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:31:20,751 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:31:26,447 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:31:30,597 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:31:34,673 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:31:38,974 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:33:34,661 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:33:40,760 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:33:45,563 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:33:49,396 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:33:53,552 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:34:45,708 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:34:45,937 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss+120b+20b+full+benchmark+scores+MMLU+GPQA+AIME+Humanitys+Last+Exam+official&limit=1 200
+2026-08-03 11:34:45,979 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss%20120b%2020b%20full%20benchmark%20scores%20MMLU%20GPQA%20AIME%20Humanitys%20Last%20Exam%20official 200
+2026-08-03 11:34:46,922 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:34:47,106 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+27B+35B-A3B+license+Apache+2.0+commercial+terms+Alibaba+Tongyi&limit=1 200
+2026-08-03 11:34:47,154 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%2027B%2035B-A3B%20license%20Apache%202.0%20commercial%20terms%20Alibaba%20Tongyi 200
+2026-08-03 11:34:47,530 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:34:47,568 INFO response: https://www.mojeek.com/search?q=Qwen3.6+27B+35B-A3B+license+Apache+2.0+commercial+terms+Alibaba+Tongyi 200
+2026-08-03 11:34:47,689 INFO response: https://search.yahoo.com/search;_ylt=tvQIkyi_Ubp72IVmA5sDODDe;_ylu=BIHy_wfySdxlM18npUG6tXomcn88R1uujMkjSjXmAEF47ZQ?p=Qwen3.6+27B+35B-A3B+license+Apache+2.0+commercial+terms+Alibaba+Tongyi 200
+2026-08-03 11:34:49,533 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 11:34:52,273 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:36:06,285 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:36:06,553 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+compute+capabilities+TFLOPS+FP8+FP16+FP4+sparse+dense+specifications+Blackwell&limit=1 200
+2026-08-03 11:36:06,560 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%20compute%20capabilities%20TFLOPS%20FP8%20FP16%20FP4%20sparse%20dense%20specifications%20Blackwell 200
+2026-08-03 11:36:07,658 INFO response: https://yandex.com/search/site/?text=RTX+5090+compute+capabilities+TFLOPS+FP8+FP16+FP4+sparse+dense+specifications+Blackwell&web=1&searchid=1618994 200
+2026-08-03 11:36:07,886 INFO response: https://grokipedia.com/api/typeahead?query=RTX+5090+practical+LLM+inference+benchmark+tokens+per+second+FP8+quantization+2026&limit=1 200
+2026-08-03 11:36:07,911 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RTX%205090%20practical%20LLM%20inference%20benchmark%20tokens%20per%20second%20FP8%20quantization%202026 200
+2026-08-03 11:36:08,321 INFO response: https://www.mojeek.com/search?q=RTX+5090+practical+LLM+inference+benchmark+tokens+per+second+FP8+quantization+2026 200
+2026-08-03 11:36:08,981 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:36:09,847 INFO response: https://search.brave.com/search?q=RTX+5090+practical+LLM+inference+benchmark+tokens+per+second+FP8+quantization+2026&source=web 429
+2026-08-03 11:36:10,082 INFO response: https://www.startpage.com/ 200
+2026-08-03 11:36:10,462 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 11:36:13,066 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 11:36:17,213 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"

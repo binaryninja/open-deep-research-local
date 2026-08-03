@@ -1,0 +1,80 @@
+2026-08-03 10:38:59,887 INFO Starting deep research: What are the current state-of-the-art open-weight LLMs that can run locally on a single NVIDIA RTX 5090 (32GB VRAM) as o
+2026-08-03 10:38:59,888 INFO state update, populated keys: ['messages']
+2026-08-03 10:39:18,850 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:39:18,856 INFO state update, populated keys: ['messages', 'supervisor_messages', 'research_brief']
+2026-08-03 10:39:23,616 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:39:27,429 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:39:28,713 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:39:28,934 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+pool+model+specifications&limit=1 200
+2026-08-03 10:39:29,064 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20pool%20model%20specifications 200
+2026-08-03 10:39:30,134 INFO response: https://yandex.com/search/site/?text=Poolside+Laguna+XS+2.1+pool+model+specifications&web=1&searchid=9866770 200
+2026-08-03 10:39:30,365 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss+Open+Science+Stack+model+family+LLM&limit=1 200
+2026-08-03 10:39:30,424 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss%20Open%20Science%20Stack%20model%20family%20LLM 200
+2026-08-03 10:39:30,529 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:39:30,644 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+3.6+model+family+announcement+Alibaba&limit=1 200
+2026-08-03 10:39:30,768 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%203.6%20model%20family%20announcement%20Alibaba 200
+2026-08-03 10:39:31,010 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-08-03 10:39:31,142 INFO response: https://www.google.com/search?q=Qwen+3.6+model+family+announcement+Alibaba&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:39:31,341 INFO response: https://yandex.com/search/site/?text=gpt-oss+Open+Science+Stack+model+family+LLM&web=1&searchid=6077475 200
+2026-08-03 10:39:31,380 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:39:31,498 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+specifications&limit=1 200
+2026-08-03 10:39:31,647 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20specifications 200
+2026-08-03 10:39:31,739 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:39:31,847 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:39:31,994 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%203.6%20variants%20parameter%20sizes%20official 200
+2026-08-03 10:39:32,002 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+3.6+variants+parameter+sizes+official&limit=1 200
+2026-08-03 10:39:32,446 INFO response: https://www.mojeek.com/search?q=Qwen+3.6+variants+parameter+sizes+official 200
+2026-08-03 10:39:32,517 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:39:32,880 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:39:33,282 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:39:33,516 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+3.6+technical+specifications+context+window+architecture&limit=1 200
+2026-08-03 10:39:33,593 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%203.6%20technical%20specifications%20context%20window%20architecture 200
+2026-08-03 10:39:34,004 INFO response: https://www.mojeek.com/search?q=Qwen+3.6+technical+specifications+context+window+architecture 200
+2026-08-03 10:39:34,654 INFO response: https://search.brave.com/search?q=Qwen+3.6+technical+specifications+context+window+architecture&source=web 200
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:33,689 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:35,915 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:44:44,964 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:44:45,148 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss-120b+gpt-oss-20b+benchmark+scores+MMLU+GSM8K+HumanEval&limit=1 200
+2026-08-03 10:44:45,224 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss-120b%20gpt-oss-20b%20benchmark%20scores%20MMLU%20GSM8K%20HumanEval 200
+2026-08-03 10:44:45,426 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:44:45,864 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:44:46,043 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss+model+architecture+details+MoE+experts+OpenAI+blog&limit=1 200
+2026-08-03 10:44:46,178 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss%20model%20architecture%20details%20MoE%20experts%20OpenAI%20blog 200
+2026-08-03 10:44:46,402 INFO response: https://search.yahoo.com/search;_ylt=VcjqEQ4mQhent4Py7CMgU51N;_ylu=UAfe9MJBGwHbDSvRLWq3OMD10qkr7J2vwNjtc8JcZCpalr0?p=gpt-oss+model+architecture+details+MoE+experts+OpenAI+blog 200
+2026-08-03 10:44:47,226 INFO response: https://grokipedia.com/api/typeahead?query=OpenAI+gpt-oss+technical+report+Hugging+Face+model+card&limit=1 200
+2026-08-03 10:44:47,313 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=OpenAI%20gpt-oss%20technical%20report%20Hugging%20Face%20model%20card 200
+2026-08-03 10:44:47,447 INFO response: https://www.google.com/search?q=OpenAI+gpt-oss+technical+report+Hugging+Face+model+card&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:44:48,510 INFO response: https://yandex.com/search/site/?text=OpenAI+gpt-oss+technical+report+Hugging+Face+model+card&web=1&searchid=8265817 200
+2026-08-03 10:44:54,305 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:44:54,451 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+blog+post+Alibaba+Qwen.ai+technical+details&limit=1 200
+2026-08-03 10:44:54,537 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20blog%20post%20Alibaba%20Qwen.ai%20technical%20details 200
+2026-08-03 10:44:55,629 INFO response: https://yandex.com/search/site/?text=Qwen3.6+blog+post+Alibaba+Qwen.ai+technical+details&web=1&searchid=2298275 200
+2026-08-03 10:44:55,844 INFO response: https://grokipedia.com/api/typeahead?query=Qwen+3.6+quantization+GGUF+bits+support+llama.cpp&limit=1 200
+2026-08-03 10:44:55,911 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen%203.6%20quantization%20GGUF%20bits%20support%20llama.cpp 200
+2026-08-03 10:44:56,958 INFO response: https://yandex.com/search/site/?text=Qwen+3.6+quantization+GGUF+bits+support+llama.cpp&web=1&searchid=1571085 200
+2026-08-03 10:44:57,141 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+function+calling+agentic+tool+use+capabilities+documentation&limit=1 200
+2026-08-03 10:44:57,216 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20function%20calling%20agentic%20tool%20use%20capabilities%20documentation 200
+2026-08-03 10:44:57,687 INFO response: https://www.mojeek.com/search?q=Qwen3.6+function+calling+agentic+tool+use+capabilities+documentation 200
+2026-08-03 10:44:57,817 INFO response: https://www.google.com/search?q=Qwen3.6+function+calling+agentic+tool+use+capabilities+documentation&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:44:58,576 INFO response: https://search.brave.com/search?q=Qwen3.6+function+calling+agentic+tool+use+capabilities+documentation&source=web 200

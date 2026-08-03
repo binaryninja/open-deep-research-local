@@ -1,0 +1,72 @@
+2026-08-03 10:49:10,234 INFO Starting deep research: What are the current state-of-the-art open-weight LLMs that can run locally on a single NVIDIA RTX 5090 (32GB VRAM) as o
+2026-08-03 10:49:10,235 INFO state update, populated keys: ['messages']
+2026-08-03 10:49:32,342 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:49:32,348 INFO state update, populated keys: ['messages', 'supervisor_messages', 'research_brief']
+2026-08-03 10:49:37,022 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:49:40,882 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:49:42,315 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:49:42,496 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+official+release+August+2026&limit=1 200
+2026-08-03 10:49:42,629 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20official%20release%20August%202026 200
+2026-08-03 10:49:43,272 INFO response: https://search.brave.com/search?q=Qwen3.6+official+release+August+2026&source=web 200
+2026-08-03 10:49:43,421 INFO response: https://grokipedia.com/api/typeahead?query=site%3Aqwenlm.github.io+Qwen3.6+blog&limit=1 200
+2026-08-03 10:49:43,523 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Aqwenlm.github.io%20Qwen3.6%20blog 200
+2026-08-03 10:49:43,748 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:49:43,813 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:49:44,037 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20model%20documentation%20August%202026 200
+2026-08-03 10:49:44,063 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+model+documentation+August+2026&limit=1 200
+2026-08-03 10:49:44,261 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:49:44,275 INFO response: https://search.yahoo.com/search;_ylt=U0iLQ6dP3yimb_hlfLT2tVVu;_ylu=ibF_ZWwZ8HCz3XsQ44r1799zQrhXtM_QxrdsOVL5nZnnxpQ?p=Poolside+Laguna+XS+2.1+model+documentation+August+2026 200
+2026-08-03 10:49:44,403 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+HuggingFace+model+variants+parameters&limit=1 200
+2026-08-03 10:49:44,533 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20HuggingFace%20model%20variants%20parameters 200
+2026-08-03 10:49:44,993 INFO response: https://www.google.com/search?q=Poolside+Laguna+XS+2.1+model+documentation+August+2026&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:49:45,275 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:49:45,477 INFO response: https://yandex.com/search/site/?text=Qwen3.6+HuggingFace+model+variants+parameters&web=1&searchid=6864158 200
+2026-08-03 10:49:45,646 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:49:45,699 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20technical%20report 200
+2026-08-03 10:49:45,730 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+technical+report&limit=1 200
+2026-08-03 10:49:45,815 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss+model+August+2026+OpenAI+release&limit=1 200
+2026-08-03 10:49:45,897 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss%20model%20August%202026%20OpenAI%20release 200
+2026-08-03 10:49:46,129 INFO response: https://www.mojeek.com/search?q=Qwen3.6+technical+report 200
+2026-08-03 10:49:46,339 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:49:46,723 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:49:46,802 INFO response: https://search.brave.com/search?q=gpt-oss+model+August+2026+OpenAI+release&source=web 200
+2026-08-03 10:49:46,962 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+HuggingFace+architecture+benchmarks&limit=1 200
+2026-08-03 10:49:47,071 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20HuggingFace%20architecture%20benchmarks 200
+2026-08-03 10:49:47,471 INFO response: https://www.mojeek.com/search?q=Poolside+Laguna+XS+2.1+HuggingFace+architecture+benchmarks 200
+2026-08-03 10:49:47,609 INFO response: https://www.google.com/search?q=Poolside+Laguna+XS+2.1+HuggingFace+architecture+benchmarks&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:49:47,854 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:49:48,180 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:49:48,330 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss+GitHub+repository+specifications+VRAM&limit=1 200
+2026-08-03 10:49:48,460 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss%20GitHub%20repository%20specifications%20VRAM 200
+2026-08-03 10:49:48,611 INFO response: https://search.brave.com/search?q=gpt-oss+GitHub+repository+specifications+VRAM&source=web 429
+2026-08-03 10:49:49,029 INFO response: https://www.mojeek.com/search?q=gpt-oss+GitHub+repository+specifications+VRAM 200
+2026-08-03 10:49:49,177 INFO response: https://search.yahoo.com/search;_ylt=dMrE8I0STB-CRSlBNmM8HrwC;_ylu=s_cLiwPab34sj5fCq7jZJKNlsD-4sJbGQJwbA4k2ANpnHAQ?p=gpt-oss+GitHub+repository+specifications+VRAM 200
+2026-08-03 10:49:49,930 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+technical+blog+post+parameter+sizes&limit=1 200
+2026-08-03 10:49:49,991 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20technical%20blog%20post%20parameter%20sizes 200
+2026-08-03 10:49:50,932 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:49:53,141 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:49:53,143 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:49:56,286 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:49:56,287 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:01,656 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:01,657 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:02,481 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:02,482 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:06,038 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:06,040 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:09,284 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:09,285 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:10,041 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:10,042 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:13,600 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:13,601 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:17,832 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:17,834 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:21,089 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:21,090 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:23,498 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:23,499 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:27,214 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:27,215 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content
+2026-08-03 10:50:28,531 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:50:28,532 WARNING Summarization failed with error: 'NoneType' object has no attribute 'summary', returning original content

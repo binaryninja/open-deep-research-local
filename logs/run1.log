@@ -1,0 +1,199 @@
+2026-08-03 10:32:14,976 INFO Starting deep research: What are the current state-of-the-art open-weight LLMs that can run locally on a single NVIDIA RTX 5090 (32GB VRAM) as o
+2026-08-03 10:32:14,977 INFO state update, populated keys: ['messages']
+2026-08-03 10:32:40,556 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:32:40,563 INFO state update, populated keys: ['messages', 'supervisor_messages', 'research_brief']
+2026-08-03 10:32:45,320 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:32:51,981 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:32:54,832 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:32:55,050 INFO response: https://grokipedia.com/api/typeahead?query=open-weight+models+2025+2026+GPU+VRAM+requirements+RTX&limit=1 200
+2026-08-03 10:32:55,067 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+family+all+variants+models+parameters+context+length+official+announcement&limit=1 200
+2026-08-03 10:32:55,081 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20family%20all%20variants%20models%20parameters%20context%20length%20official%20announcement 200
+2026-08-03 10:32:55,103 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=open-weight%20models%202025%202026%20GPU%20VRAM%20requirements%20RTX 200
+2026-08-03 10:32:55,251 INFO response: https://search.yahoo.com/search;_ylt=VonDDSx-dgPChOTFQEC6vPtT;_ylu=Zv_yI-NZDaXSYcig0UPbxEEAYaw_ccNGussjpM4RyadvdbM?p=Qwen3.6+family+all+variants+models+parameters+context+length+official+announcement 200
+2026-08-03 10:32:55,971 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:32:56,001 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.6+open-weight+models+Hugging+Face+parameter+count+licensing&limit=1 200
+2026-08-03 10:32:56,056 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.6%20open-weight%20models%20Hugging%20Face%20parameter%20count%20licensing 200
+2026-08-03 10:32:56,170 INFO response: https://grokipedia.com/api/typeahead?query=Llama+4+Scout+Explorer+parameters+official+announcement+Meta+2025&limit=1 200
+2026-08-03 10:32:56,213 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Llama%204%20Scout%20Explorer%20parameters%20official%20announcement%20Meta%202025 200
+2026-08-03 10:32:56,473 INFO response: https://www.mojeek.com/search?q=Qwen3.6+open-weight+models+Hugging+Face+parameter+count+licensing 200
+2026-08-03 10:32:56,601 INFO response: https://search.yahoo.com/search;_ylt=rDaT3D08H4aBsPGII0h_06vD;_ylu=cu16FSQUCB6dxE7tBQm5-zjfeem1ht_OYgTwA3EoG95kGEs?p=Qwen3.6+open-weight+models+Hugging+Face+parameter+count+licensing 200
+2026-08-03 10:32:56,633 INFO response: https://www.mojeek.com/search?q=Llama+4+Scout+Explorer+parameters+official+announcement+Meta+2025 200
+2026-08-03 10:32:56,856 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:32:57,264 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+model+specifications+GitHub&limit=1 200
+2026-08-03 10:32:57,286 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:32:57,357 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20model%20specifications%20GitHub 200
+2026-08-03 10:32:57,477 INFO response: https://grokipedia.com/api/typeahead?query=Mistral+Small+3+specifications+open-weight+2025+2026&limit=1 200
+2026-08-03 10:32:57,596 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Mistral%20Small%203%20specifications%20open-weight%202025%202026 200
+2026-08-03 10:32:58,017 INFO response: https://www.mojeek.com/search?q=Mistral+Small+3+specifications+open-weight+2025+2026 200
+2026-08-03 10:32:58,408 INFO response: https://yandex.com/search/site/?text=Poolside+Laguna+XS+2.1+model+specifications+GitHub&web=1&searchid=5715455 200
+2026-08-03 10:32:58,562 INFO response: https://grokipedia.com/api/typeahead?query=gpt-oss+open-weight+model+variants+parameters+official&limit=1 200
+2026-08-03 10:32:58,677 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=gpt-oss%20open-weight%20model%20variants%20parameters%20official 200
+2026-08-03 10:32:58,852 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:32:58,864 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:32:58,998 INFO response: https://grokipedia.com/api/typeahead?query=Mistral+open-weight+models+2026+benchmarks+1B-14B+range&limit=1 200
+2026-08-03 10:32:59,023 INFO response: https://grokipedia.com/api/typeahead?query=open-weight+LLM+long-context+window+benchmark+retrieval+accuracy+2026&limit=1 200
+2026-08-03 10:32:59,053 INFO response: https://yandex.com/search/site/?text=Mistral+Small+3+specifications+open-weight+2025+2026&web=1&searchid=4474218 200
+2026-08-03 10:32:59,094 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=best%20open-weight%20LLMs%201B-14B%20parameter%20range%202026%20benchmark%20MMLU 200
+2026-08-03 10:32:59,107 INFO response: https://grokipedia.com/api/typeahead?query=best+open-weight+LLMs+1B-14B+parameter+range+2026+benchmark+MMLU&limit=1 200
+2026-08-03 10:32:59,119 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Mistral%20open-weight%20models%202026%20benchmarks%201B-14B%20range 200
+2026-08-03 10:32:59,162 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=open-weight%20LLM%20long-context%20window%20benchmark%20retrieval%20accuracy%202026 200
+2026-08-03 10:32:59,249 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:32:59,285 INFO response: https://grokipedia.com/api/typeahead?query=Gemma+3+family+open-weight+variants+parameter+sizes+2025+2026&limit=1 200
+2026-08-03 10:32:59,354 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Gemma%203%20family%20open-weight%20variants%20parameter%20sizes%202025%202026 200
+2026-08-03 10:32:59,485 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:32:59,899 INFO response: https://search.brave.com/search?q=Mistral+open-weight+models+2026+benchmarks+1B-14B+range&source=web 200
+2026-08-03 10:32:59,960 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:33:00,090 INFO response: https://grokipedia.com/api/typeahead?query=Hugging+Face+Open+LLM+Leaderboard+top+models+2026&limit=1 200
+2026-08-03 10:33:00,128 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:33:00,138 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Hugging%20Face%20Open%20LLM%20Leaderboard%20top%20models%202026 200
+2026-08-03 10:33:00,297 INFO response: https://www.google.com/search?q=Hugging+Face+Open+LLM+Leaderboard+top+models+2026&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:33:00,303 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:33:00,303 INFO response: https://grokipedia.com/api/typeahead?query=Qwen3.5+Qwen3.6+open-weight+model+benchmarks+MMLU+HumanEval&limit=1 200
+2026-08-03 10:33:00,304 INFO response: https://grokipedia.com/api/typeahead?query=Hallucination+rate+evaluation+open+LLMs+reliability+benchmark+2026&limit=1 200
+2026-08-03 10:33:00,327 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Hallucination%20rate%20evaluation%20open%20LLMs%20reliability%20benchmark%202026 200
+2026-08-03 10:33:00,409 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Qwen3.5%20Qwen3.6%20open-weight%20model%20benchmarks%20MMLU%20HumanEval 200
+2026-08-03 10:33:00,553 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:33:00,643 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:33:00,991 INFO response: https://search.brave.com/search?q=Hugging+Face+Open+LLM+Leaderboard+top+models+2026&source=web 200
+2026-08-03 10:33:01,147 INFO response: https://grokipedia.com/api/typeahead?query=LiveBench+MMLU-Pro+benchmark+scores+open+LLMs+2026&limit=1 200
+2026-08-03 10:33:01,240 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=LiveBench%20MMLU-Pro%20benchmark%20scores%20open%20LLMs%202026 200
+2026-08-03 10:33:01,357 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:33:01,369 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:33:01,650 INFO response: https://grokipedia.com/api/typeahead?query=Llama+4+8B+14B+benchmark+scores+2026&limit=1 200
+2026-08-03 10:33:01,665 INFO response: https://grokipedia.com/api/typeahead?query=agent+tool-calling+benchmark+AgenticBench+ToolBench+open+LLM+2026&limit=1 200
+2026-08-03 10:33:01,778 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=agent%20tool-calling%20benchmark%20AgenticBench%20ToolBench%20open%20LLM%202026 200
+2026-08-03 10:33:01,778 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Llama%204%208B%2014B%20benchmark%20scores%202026 200
+2026-08-03 10:33:01,938 INFO response: https://www.google.com/search?q=Llama+4+8B+14B+benchmark+scores+2026&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-08-03 10:33:01,998 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:33:02,209 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:33:02,407 INFO response: https://grokipedia.com/api/typeahead?query=inference+speed+tokens+per+second+FP16+INT8+INT4+GGUF+open+weights&limit=1 200
+2026-08-03 10:33:02,473 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=inference%20speed%20tokens%20per%20second%20FP16%20INT8%20INT4%20GGUF%20open%20weights 200
+2026-08-03 10:33:02,656 INFO response: https://www.startpage.com/ 200
+2026-08-03 10:33:03,061 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:33:03,099 INFO response: https://www.startpage.com/sp/search 200
+2026-08-03 10:33:03,297 INFO response: https://search.brave.com/search?q=Llama+4+8B+14B+benchmark+scores+2026&source=web 200
+2026-08-03 10:33:03,303 INFO response: https://grokipedia.com/api/typeahead?query=BFCL+function+calling+benchmark+open-weight+models+2026+agentic&limit=1 200
+2026-08-03 10:33:03,311 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=BFCL%20function%20calling%20benchmark%20open-weight%20models%202026%20agentic 200
+2026-08-03 10:33:03,313 INFO response: https://grokipedia.com/api/typeahead?query=perplexity+benchmarks+open+LLMs+inference+throughput+comparison+2026&limit=1 200
+2026-08-03 10:33:03,353 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=perplexity%20benchmarks%20open%20LLMs%20inference%20throughput%20comparison%202026 200
+2026-08-03 10:33:03,463 INFO response: https://grokipedia.com/api/typeahead?query=GPT-OSS+open-weights+model+family+benchmarks&limit=1 200
+2026-08-03 10:33:03,571 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=GPT-OSS%20open-weights%20model%20family%20benchmarks 200
+2026-08-03 10:33:03,711 INFO response: https://www.mojeek.com/search?q=BFCL+function+calling+benchmark+open-weight+models+2026+agentic 200
+2026-08-03 10:33:04,222 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:33:04,367 INFO HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-08-03 10:33:04,531 INFO response: https://grokipedia.com/api/typeahead?query=Poolside+Laguna+XS+2.1+model+benchmarks&limit=1 200
+2026-08-03 10:33:04,646 INFO response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Poolside%20Laguna%20XS%202.1%20model%20benchmarks 200
+2026-08-03 10:33:04,658 INFO response: https://yandex.com/search/site/?text=BFCL+function+calling+benchmark+open-weight+models+2026+agentic&web=1&searchid=7132638 200
+2026-08-03 10:33:05,692 INFO response: https://yandex.com/search/site/?text=Poolside+Laguna+XS+2.1+model+benchmarks&web=1&searchid=1880894 200
+2026-08-03 10:34:00,990 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,990 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:00,991 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:06,872 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:07,953 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:10,433 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:15,489 WARNING Summarization timed out after 60 seconds, returning original content
+2026-08-03 10:34:55,242 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:35:29,077 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:35:58,420 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:36:23,756 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:36:31,002 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:36:37,413 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:36:37,415 INFO state update, populated keys: ['messages', 'supervisor_messages', 'research_brief', 'raw_notes', 'notes']
+2026-08-03 10:37:28,944 INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-03 10:37:28,945 INFO state update, populated keys: ['messages', 'supervisor_messages', 'research_brief', 'raw_notes', 'final_report']
+2026-08-03 10:37:28,946 INFO Report written to /d1/local-research/report-20260803-103728.md (12870 chars)
