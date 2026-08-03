@@ -58,14 +58,22 @@ async def tavily_search(
     Returns:
         Formatted string containing summarized search results
     """
-    # Step 1: Execute search queries asynchronously
-    search_results = await tavily_search_async(
-        queries,
-        max_results=max_results,
-        topic=topic,
-        include_raw_content=True,
-        config=config
-    )
+    # Step 1: Execute search queries asynchronously via the configured backend
+    configurable = Configuration.from_runnable_config(config)
+    if SearchAPI(get_config_value(configurable.search_api)) == SearchAPI.DUCKDUCKGO:
+        search_results = await duckduckgo_search_async(
+            queries,
+            max_results=max_results,
+            include_raw_content=True
+        )
+    else:
+        search_results = await tavily_search_async(
+            queries,
+            max_results=max_results,
+            topic=topic,
+            include_raw_content=True,
+            config=config
+        )
     
     # Step 2: Deduplicate results by URL to avoid processing the same content multiple times
     unique_results = {}
@@ -97,12 +105,18 @@ async def tavily_search(
         """No-op function for results without raw content."""
         return None
     
+    # Bound in-flight summarization calls: local inference divides decode
+    # throughput across all concurrent generations, so an unbounded burst
+    # starves every request past its timeout
+    summarization_semaphore = asyncio.Semaphore(3)
+
+    async def bounded_summarize(webpage_content: str) -> str:
+        async with summarization_semaphore:
+            return await summarize_webpage(summarization_model, webpage_content)
+
     summarization_tasks = [
-        noop() if not result.get("raw_content") 
-        else summarize_webpage(
-            summarization_model, 
-            result['raw_content'][:max_char_to_include]
-        )
+        noop() if not result.get("raw_content")
+        else bounded_summarize(result['raw_content'][:max_char_to_include])
         for result in unique_results.values()
     ]
     
@@ -172,6 +186,109 @@ async def tavily_search_async(
     search_results = await asyncio.gather(*search_tasks)
     return search_results
 
+def _extract_text_from_html(html: str, max_chars: int) -> Optional[str]:
+    """Parse HTML and extract visible text. CPU-bound: call via asyncio.to_thread."""
+    from bs4 import BeautifulSoup
+    try:
+        soup = BeautifulSoup(html, "lxml")
+    except Exception:
+        soup = BeautifulSoup(html, "html.parser")
+    for element in soup(["script", "style", "noscript", "header", "footer", "nav"]):
+        element.decompose()
+    text = " ".join(soup.get_text(" ", strip=True).split())
+    return text[:max_chars] if text else None
+
+async def _fetch_page_text(
+    session: "aiohttp.ClientSession",
+    url: str,
+    max_chars: int = 100000,
+    max_bytes: int = 2_000_000,
+) -> Optional[str]:
+    """Fetch a webpage (size-capped) and extract its visible text, returning None on any failure."""
+    try:
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as response:
+            if response.status != 200:
+                return None
+            content_type = response.headers.get("content-type", "")
+            if "html" not in content_type and "text" not in content_type:
+                return None
+            chunks, total = [], 0
+            async for chunk in response.content.iter_chunked(65536):
+                chunks.append(chunk)
+                total += len(chunk)
+                if total >= max_bytes:
+                    break
+            html = b"".join(chunks).decode(response.charset or "utf-8", errors="ignore")
+        # Parsing arbitrary HTML is CPU-bound and must not block the event loop
+        return await asyncio.to_thread(_extract_text_from_html, html, max_chars)
+    except Exception:
+        return None
+
+async def duckduckgo_search_async(
+    search_queries: List[str],
+    max_results: int = 5,
+    include_raw_content: bool = True,
+):
+    """Execute DuckDuckGo searches, mirroring the tavily_search_async response shape.
+
+    Runs queries sequentially with retries to stay under DuckDuckGo rate limits,
+    then fetches page content directly to populate raw_content.
+    """
+    import random
+    import time as time_module
+
+    from ddgs import DDGS
+
+    def _search_one(query: str) -> dict:
+        results = []
+        for attempt in range(3):
+            try:
+                with DDGS() as ddgs:
+                    hits = list(ddgs.text(query, max_results=max_results))
+                for hit in hits:
+                    url = hit.get("href", "")
+                    if not url:
+                        continue
+                    results.append({
+                        "url": url,
+                        "title": hit.get("title", ""),
+                        "content": hit.get("body", ""),
+                        "raw_content": None,
+                    })
+                break
+            except Exception as e:
+                logging.warning(f"DuckDuckGo search error for '{query}' (attempt {attempt + 1}/3): {e}")
+                time_module.sleep(2 * (attempt + 1) + random.random())
+        return {"query": query, "results": results}
+
+    # Sequential execution to avoid DuckDuckGo rate limiting
+    search_responses = []
+    for query in search_queries:
+        search_responses.append(await asyncio.to_thread(_search_one, query))
+
+    if include_raw_content:
+        unique_urls = list({
+            result["url"]
+            for response in search_responses
+            for result in response["results"]
+        })
+        headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+        semaphore = asyncio.Semaphore(5)
+
+        async with aiohttp.ClientSession(headers=headers) as session:
+            async def bounded_fetch(url: str):
+                async with semaphore:
+                    return await _fetch_page_text(session, url)
+
+            page_texts = await asyncio.gather(*(bounded_fetch(url) for url in unique_urls))
+
+        url_to_text = dict(zip(unique_urls, page_texts))
+        for response in search_responses:
+            for result in response["results"]:
+                result["raw_content"] = url_to_text.get(result["url"])
+
+    return search_responses
+
 async def summarize_webpage(model: BaseChatModel, webpage_content: str) -> str:
     """Summarize webpage content using AI model with timeout protection.
     
@@ -189,10 +306,12 @@ async def summarize_webpage(model: BaseChatModel, webpage_content: str) -> str:
             date=get_today_str()
         )
         
-        # Execute summarization with timeout to prevent hanging
+        # Execute summarization with timeout to prevent hanging.
+        # Generous timeout: local inference serializes concurrent requests on
+        # one GPU, so queued summarization calls can legitimately wait minutes.
         summary = await asyncio.wait_for(
             model.ainvoke([HumanMessage(content=prompt_content)]),
-            timeout=60.0  # 60 second timeout for summarization
+            timeout=600.0
         )
         
         # Format the summary with structured sections
@@ -205,7 +324,7 @@ async def summarize_webpage(model: BaseChatModel, webpage_content: str) -> str:
         
     except asyncio.TimeoutError:
         # Timeout during summarization - return original content
-        logging.warning("Summarization timed out after 60 seconds, returning original content")
+        logging.warning("Summarization timed out after 600 seconds, returning original content")
         return webpage_content
     except Exception as e:
         # Other errors during summarization - log and return original content
@@ -549,12 +668,12 @@ async def get_search_tool(search_api: SearchAPI):
         # OpenAI's web search preview functionality
         return [{"type": "web_search_preview"}]
         
-    elif search_api == SearchAPI.TAVILY:
-        # Configure Tavily search tool with metadata
+    elif search_api in (SearchAPI.TAVILY, SearchAPI.DUCKDUCKGO):
+        # Same search tool for both backends; tavily_search dispatches internally
         search_tool = tavily_search
         search_tool.metadata = {
-            **(search_tool.metadata or {}), 
-            "type": "search", 
+            **(search_tool.metadata or {}),
+            "type": "search",
             "name": "web_search"
         }
         return [search_tool]
