@@ -5,7 +5,7 @@
 Built and validated on an NVIDIA RTX 5090 (32GB VRAM) with **Qwen3.6 35B-A3B** (MoE, 3B active) served by Ollama. A full deep-research run makes ~130 model calls over ~1h45m and produces a cited multi-page report.
 
 📄 Sample output: [examples/rtx5090-local-models-report.md](examples/rtx5090-local-models-report.md) — the pipeline researching its own subject (best local models for a 32GB GPU, Aug 2026).
-🛠️ Full build/debugging log: [WORKLOG.md](WORKLOG.md)
+🛠️ Full build/debugging log: [WORKLOG.md](WORKLOG.md) · raw logs from all six runs (including a [hallucinated failure case](examples/failure-case-run1-hallucinated-report.md)) in [logs/](logs/)
 
 ## Research phases
 
